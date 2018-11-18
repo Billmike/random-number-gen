@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container {
+  margin-top: 20px;
+  margin-left: 20px;
+  align-self: center;
+}
+
+.button-style {
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightblue;
+  border: none;
+  font-size: 16px;
+}
+
+.download-button {
+  height: 50px;
+  border-radius: 10px;
+  background-color: lightblue;
+  border: none;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+.select-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.select-label {
+  margin-right: 10px;
+}
+
+.minimax-container {
+  position: absolute;
+  top: 15%;
+  left: 25px;
+}
+
+.max {
+  margin-bottom: 15px;
+}

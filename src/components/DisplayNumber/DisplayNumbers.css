@@ -1,0 +1,14 @@
+.number-container {
+  align-self: center;
+  margin-top: 20px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+.number-count {
+  margin-bottom: 30px
+}
+
+.phone-number {
+  margin-bottom: 15px;
+}

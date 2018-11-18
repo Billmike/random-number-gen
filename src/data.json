@@ -1,0 +1,18 @@
+{
+  "data": {
+    "phoneNumbers": [
+      {
+        "id": 1,
+        "userPhoneNumber": 30062207
+      },
+      {
+        "id": 2,
+        "userPhoneNumber": 46578920
+      },
+      {
+        "id": 3,
+        "userPhoneNumber": 34205607
+      }
+    ]
+  }
+}
