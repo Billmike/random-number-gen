@@ -12,3 +12,28 @@
 .phone-number {
   margin-bottom: 15px;
 }
+
+.page-numbers {
+  margin-right: 5px;
+  background-color: aliceblue;
+  padding: 7px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.page-number-container {
+  display: flex;
+  margin-top: 50px;
+}
+
+.container-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.number-style {
+  margin-bottom: 10px;
+}

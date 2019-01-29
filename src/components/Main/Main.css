@@ -4,35 +4,37 @@
 }
 
 .button-container {
-  margin-top: 20px;
   margin-left: 20px;
   align-self: center;
 }
 
 .button-style {
-  height: 50px;
+  height: 35px;
   border-radius: 10px;
-  background-color: lightblue;
+  background-color: white;
   border: none;
   font-size: 16px;
+  font-family: auto;
 }
 
 .download-button {
-  height: 50px;
+  height: 35px;
   border-radius: 10px;
-  background-color: lightblue;
+  background-color: white;
   border: none;
   font-size: 16px;
   margin-left: 20px;
+  font-family: auto;
 }
 
 .select-container {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 
 .select-label {
   margin-right: 10px;
+  font-family: auto;
 }
 
 .minimax-container {
@@ -43,4 +45,19 @@
 
 .max {
   margin-bottom: 15px;
+}
+
+.generating-value {
+  margin-bottom: 35px;
+  margin-top: 15px;
+  width: 97%;
+  height: 20px;
+  border-radius: 5px;
+  padding-left: 5px;
+}
+
+.heading-text {
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
 }

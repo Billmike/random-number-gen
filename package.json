@@ -4,8 +4,11 @@
   "private": true,
   "dependencies": {
     "file-saver": "^2.0.0",
+    "rc-pagination": "^1.17.3",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-paginate": "^6.2.1",
+    "react-paginating": "^1.1.0",
     "react-redux": "5.0.7",
     "react-scripts": "2.1.1",
     "redux": "4.0.0",

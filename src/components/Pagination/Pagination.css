@@ -1,0 +1,28 @@
+.pagination-class {
+  display: flex;
+  list-style: none;
+  background-color: whitesmoke;
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.page-numbers-style {
+  padding: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.active {
+  background-color: white;
+  color: violet;
+}
+
+.page-item, .next-button {
+  margin-top: 8px;
+}
+
+.next-button {
+  margin-left: 5px;
+}

@@ -1,15 +1,14 @@
-import * as data from '../data.json';
-
 export const defaultState = {
-  data: data.data.phoneNumbers
+  data: []
 }
 
 export default (state = defaultState, action) => {
   switch(action.type) {
     case 'ADD_NUMBERS':
+    console.log('the state', action)
       return {
         ...state,
-        data: [...state.data, {id: state.data.length, userPhoneNumber: action.phoneNumber}]
+        data: [...action.phoneNumber]
       }
     case 'SORT_NUMBERS_ASCENDING':
       return {
