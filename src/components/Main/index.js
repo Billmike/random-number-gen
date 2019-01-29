@@ -22,7 +22,7 @@ class Main extends React.Component {
       arr.push({userPhoneNumber: createdPhoneNumber})
     }
     
-    swal("Success!", "New number generated", "success");
+    swal("Success!", "New phone numbers generated", "success");
     this.props.addNumbers(arr);
   }
 
@@ -47,7 +47,6 @@ class Main extends React.Component {
       this.props.numbers.map(phoneNumber => phoneNumber.userPhoneNumber) : 0;
     const maxNumber = phoneNumbers === 0 ? 0 : Math.max(...phoneNumbers);
     const minNumber = phoneNumbers === 0 ? 0 : Math.min(...phoneNumbers)
-    console.log('max', maxNumber)
     return (
       <div className="minimax-container">
         <div className="max">
@@ -77,13 +76,24 @@ class Main extends React.Component {
             onChange={this.onGeneratingValueChange}
           />
           <div>
-          <button className="button-style" onClick={this.onAddPhoneNumber}>Generate Phone Number</button>
+          <button
+            className="button-style"
+            style={{
+              backgroundColor: this.state.generatingValue.trim() === '' ? 'grey' : 'midnightblue',
+              cursor: this.state.generatingValue.trim() === '' ? 'not-allowed' : 'pointer'
+            }}
+            onClick={this.onAddPhoneNumber}
+            disabled={this.state.generatingValue.trim() === ''}
+          >
+          Generate Phone Number
+          </button>
           <button
             disabled={this.props.numbers.length === 0}
             className="download-button"
             onClick={this.onDownloadPhoneNumbers}
             style={{
-              cursor: this.props.numbers.length === 0 ? 'not-allowed' : 'pointer'
+              cursor: this.props.numbers.length === 0 ? 'not-allowed' : 'pointer',
+              backgroundColor: this.props.numbers.length === 0 ? 'grey' : 'midnightblue'
             }}
           >
             Download Numbers

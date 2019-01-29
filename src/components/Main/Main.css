@@ -11,7 +11,7 @@
 .button-style {
   height: 35px;
   border-radius: 10px;
-  background-color: white;
+  color: white;
   border: none;
   font-size: 16px;
   font-family: auto;
@@ -20,8 +20,8 @@
 .download-button {
   height: 35px;
   border-radius: 10px;
-  background-color: white;
   border: none;
+  color: white;
   font-size: 16px;
   margin-left: 20px;
   font-family: auto;
@@ -39,8 +39,10 @@
 
 .minimax-container {
   position: absolute;
-  top: 15%;
+  top: 20%;
   left: 25px;
+  font-family: monospace;
+  font-size: 14px;
 }
 
 .max {
