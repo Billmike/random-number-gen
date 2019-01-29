@@ -4,7 +4,7 @@
 
 ## Introduction
 
-> **Random Phone Number Generator** is an application built using React and Redux, that enables the generating of random, unique phone numbers.
+> **Random Phone Number Generator** is an application built using React and Redux, that enables the generating of random, unique phone numbers. You can view the Live app [here](https://loving-bardeen-e16c11.netlify.com/)
 
 ## Table of Content
 - [Features in the application](#features-in-the-application)

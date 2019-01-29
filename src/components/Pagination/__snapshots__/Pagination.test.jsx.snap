@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Pagination /> 1`] = `
+<ul
+  className="pagination-class justify-content-center"
+>
+  <li
+    className="page-item disabled"
+  >
+    <a
+      aria-disabled="true"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      &lt;
+    </a>
+  </li>
+  <li
+    className="page-item page-numbers-style active"
+  >
+    <a
+      aria-current="page"
+      aria-label="Page 1 is your current page"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      1
+    </a>
+  </li>
+  <li
+    className="page-item page-numbers-style"
+  >
+    <a
+      aria-current={null}
+      aria-label="Page 2"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      2
+    </a>
+  </li>
+  <li
+    className="page-item page-numbers-style"
+  >
+    <a
+      aria-current={null}
+      aria-label="Page 3"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      3
+    </a>
+  </li>
+  <li
+    className="break"
+  >
+    <a
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      <a
+        href=""
+      >
+        ...
+      </a>
+    </a>
+  </li>
+  <li
+    className="page-item page-numbers-style"
+  >
+    <a
+      aria-current={null}
+      aria-label="Page 8"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      8
+    </a>
+  </li>
+  <li
+    className="page-item page-numbers-style"
+  >
+    <a
+      aria-current={null}
+      aria-label="Page 9"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      9
+    </a>
+  </li>
+  <li
+    className="page-item page-numbers-style"
+  >
+    <a
+      aria-current={null}
+      aria-label="Page 10"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      10
+    </a>
+  </li>
+  <li
+    className="page-item next-button"
+  >
+    <a
+      aria-disabled="false"
+      className="page-link"
+      onClick={[Function]}
+      onKeyPress={[Function]}
+      role="button"
+      tabIndex="0"
+    >
+      &gt;
+    </a>
+  </li>
+</ul>
+`;
