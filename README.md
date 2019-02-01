@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.com/Billmike/random-number-gen.svg?branch=develop)](https://travis-ci.com/Billmike/random-number-gen)
-
-[![Coverage Status](https://coveralls.io/repos/github/Billmike/random-number-gen/badge.svg?branch=develop)](https://coveralls.io/github/Billmike/random-number-gen?branch=develop)
+[![Build Status](https://travis-ci.com/Billmike/random-number-gen.svg?branch=develop)](https://travis-ci.com/Billmike/random-number-gen)  [![Coverage Status](https://coveralls.io/repos/github/Billmike/random-number-gen/badge.svg?branch=develop)](https://coveralls.io/github/Billmike/random-number-gen?branch=develop)
 
 # Random Phone Number Generator
 
