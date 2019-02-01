@@ -1,0 +1,798 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`it should mount without crashing 1`] = `
+<div
+  className="container"
+>
+  <h4
+    className="heading-text"
+  >
+    Random number generator
+  </h4>
+  <div
+    className="button-container"
+  >
+    <input
+      className="generating-value"
+      onChange={[Function]}
+      type="number"
+      value=""
+    />
+    <div>
+      <button
+        className="button-style"
+        disabled={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "cursor": "not-allowed",
+          }
+        }
+      >
+        Generate Phone Number
+      </button>
+      <button
+        className="download-button"
+        disabled={true}
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundColor": "grey",
+            "cursor": "not-allowed",
+          }
+        }
+      >
+        Download Numbers
+      </button>
+    </div>
+  </div>
+  <div
+    className="container-style"
+  />
+</div>
+`;
+
+exports[`should verify the onDownloadPhoneNumbers method is called correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Main
+    numbers={
+      Array [
+        Object {
+          "userPhoneNumber": 2345678,
+        },
+        Object {
+          "userPhoneNumber": 8494343,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4
+          className="heading-text"
+        >
+          Random number generator
+        </h4>,
+        <div
+          className="button-container"
+        >
+          <input
+            className="generating-value"
+            onChange={[Function]}
+            type="number"
+            value=""
+          />
+          <div>
+            <GeneratePhoneNumberButton
+              generatingValue=""
+              onAddPhoneNumber={[Function]}
+            />
+            <DownloadButton
+              numbers={
+                Array [
+                  Object {
+                    "userPhoneNumber": 2345678,
+                  },
+                  Object {
+                    "userPhoneNumber": 8494343,
+                  },
+                ]
+              }
+              onDownloadPhoneNumbers={[Function]}
+            />
+          </div>
+          <div
+            className="select-container"
+          >
+            <label
+              className="select-label"
+            >
+              Choose sorting order
+            </label>
+            <select
+              onChange={[Function]}
+            >
+              <option
+                value="Ascending"
+              >
+                Ascending
+              </option>
+              <option
+                value="Descending"
+              >
+                Descending
+              </option>
+            </select>
+          </div>
+        </div>,
+        false,
+        <DisplayNumber
+          hasGeneratedNumbers={false}
+          phoneNumbers={
+            Array [
+              Object {
+                "userPhoneNumber": 2345678,
+              },
+              Object {
+                "userPhoneNumber": 8494343,
+              },
+            ]
+          }
+        />,
+      ],
+      "className": "container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Random number generator",
+          "className": "heading-text",
+        },
+        "ref": null,
+        "rendered": "Random number generator",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <input
+              className="generating-value"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />,
+            <div>
+              <GeneratePhoneNumberButton
+                generatingValue=""
+                onAddPhoneNumber={[Function]}
+              />
+              <DownloadButton
+                numbers={
+                  Array [
+                    Object {
+                      "userPhoneNumber": 2345678,
+                    },
+                    Object {
+                      "userPhoneNumber": 8494343,
+                    },
+                  ]
+                }
+                onDownloadPhoneNumbers={[Function]}
+              />
+            </div>,
+            <div
+              className="select-container"
+            >
+              <label
+                className="select-label"
+              >
+                Choose sorting order
+              </label>
+              <select
+                onChange={[Function]}
+              >
+                <option
+                  value="Ascending"
+                >
+                  Ascending
+                </option>
+                <option
+                  value="Descending"
+                >
+                  Descending
+                </option>
+              </select>
+            </div>,
+          ],
+          "className": "button-container",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "generating-value",
+              "onChange": [Function],
+              "type": "number",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <GeneratePhoneNumberButton
+                  generatingValue=""
+                  onAddPhoneNumber={[Function]}
+                />,
+                <DownloadButton
+                  numbers={
+                    Array [
+                      Object {
+                        "userPhoneNumber": 2345678,
+                      },
+                      Object {
+                        "userPhoneNumber": 8494343,
+                      },
+                    ]
+                  }
+                  onDownloadPhoneNumbers={[Function]}
+                />,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "generatingValue": "",
+                  "onAddPhoneNumber": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "numbers": Array [
+                    Object {
+                      "userPhoneNumber": 2345678,
+                    },
+                    Object {
+                      "userPhoneNumber": 8494343,
+                    },
+                  ],
+                  "onDownloadPhoneNumbers": [Function],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <label
+                  className="select-label"
+                >
+                  Choose sorting order
+                </label>,
+                <select
+                  onChange={[Function]}
+                >
+                  <option
+                    value="Ascending"
+                  >
+                    Ascending
+                  </option>
+                  <option
+                    value="Descending"
+                  >
+                    Descending
+                  </option>
+                </select>,
+              ],
+              "className": "select-container",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Choose sorting order",
+                  "className": "select-label",
+                },
+                "ref": null,
+                "rendered": "Choose sorting order",
+                "type": "label",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <option
+                      value="Ascending"
+                    >
+                      Ascending
+                    </option>,
+                    <option
+                      value="Descending"
+                    >
+                      Descending
+                    </option>,
+                  ],
+                  "onChange": [Function],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Ascending",
+                      "value": "Ascending",
+                    },
+                    "ref": null,
+                    "rendered": "Ascending",
+                    "type": "option",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Descending",
+                      "value": "Descending",
+                    },
+                    "ref": null,
+                    "rendered": "Descending",
+                    "type": "option",
+                  },
+                ],
+                "type": "select",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "hasGeneratedNumbers": false,
+          "phoneNumbers": Array [
+            Object {
+              "userPhoneNumber": 2345678,
+            },
+            Object {
+              "userPhoneNumber": 8494343,
+            },
+          ],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4
+            className="heading-text"
+          >
+            Random number generator
+          </h4>,
+          <div
+            className="button-container"
+          >
+            <input
+              className="generating-value"
+              onChange={[Function]}
+              type="number"
+              value=""
+            />
+            <div>
+              <GeneratePhoneNumberButton
+                generatingValue=""
+                onAddPhoneNumber={[Function]}
+              />
+              <DownloadButton
+                numbers={
+                  Array [
+                    Object {
+                      "userPhoneNumber": 2345678,
+                    },
+                    Object {
+                      "userPhoneNumber": 8494343,
+                    },
+                  ]
+                }
+                onDownloadPhoneNumbers={[Function]}
+              />
+            </div>
+            <div
+              className="select-container"
+            >
+              <label
+                className="select-label"
+              >
+                Choose sorting order
+              </label>
+              <select
+                onChange={[Function]}
+              >
+                <option
+                  value="Ascending"
+                >
+                  Ascending
+                </option>
+                <option
+                  value="Descending"
+                >
+                  Descending
+                </option>
+              </select>
+            </div>
+          </div>,
+          false,
+          <DisplayNumber
+            hasGeneratedNumbers={false}
+            phoneNumbers={
+              Array [
+                Object {
+                  "userPhoneNumber": 2345678,
+                },
+                Object {
+                  "userPhoneNumber": 8494343,
+                },
+              ]
+            }
+          />,
+        ],
+        "className": "container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Random number generator",
+            "className": "heading-text",
+          },
+          "ref": null,
+          "rendered": "Random number generator",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <input
+                className="generating-value"
+                onChange={[Function]}
+                type="number"
+                value=""
+              />,
+              <div>
+                <GeneratePhoneNumberButton
+                  generatingValue=""
+                  onAddPhoneNumber={[Function]}
+                />
+                <DownloadButton
+                  numbers={
+                    Array [
+                      Object {
+                        "userPhoneNumber": 2345678,
+                      },
+                      Object {
+                        "userPhoneNumber": 8494343,
+                      },
+                    ]
+                  }
+                  onDownloadPhoneNumbers={[Function]}
+                />
+              </div>,
+              <div
+                className="select-container"
+              >
+                <label
+                  className="select-label"
+                >
+                  Choose sorting order
+                </label>
+                <select
+                  onChange={[Function]}
+                >
+                  <option
+                    value="Ascending"
+                  >
+                    Ascending
+                  </option>
+                  <option
+                    value="Descending"
+                  >
+                    Descending
+                  </option>
+                </select>
+              </div>,
+            ],
+            "className": "button-container",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "generating-value",
+                "onChange": [Function],
+                "type": "number",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <GeneratePhoneNumberButton
+                    generatingValue=""
+                    onAddPhoneNumber={[Function]}
+                  />,
+                  <DownloadButton
+                    numbers={
+                      Array [
+                        Object {
+                          "userPhoneNumber": 2345678,
+                        },
+                        Object {
+                          "userPhoneNumber": 8494343,
+                        },
+                      ]
+                    }
+                    onDownloadPhoneNumbers={[Function]}
+                  />,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "generatingValue": "",
+                    "onAddPhoneNumber": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "function",
+                  "props": Object {
+                    "numbers": Array [
+                      Object {
+                        "userPhoneNumber": 2345678,
+                      },
+                      Object {
+                        "userPhoneNumber": 8494343,
+                      },
+                    ],
+                    "onDownloadPhoneNumbers": [Function],
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <label
+                    className="select-label"
+                  >
+                    Choose sorting order
+                  </label>,
+                  <select
+                    onChange={[Function]}
+                  >
+                    <option
+                      value="Ascending"
+                    >
+                      Ascending
+                    </option>
+                    <option
+                      value="Descending"
+                    >
+                      Descending
+                    </option>
+                  </select>,
+                ],
+                "className": "select-container",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Choose sorting order",
+                    "className": "select-label",
+                  },
+                  "ref": null,
+                  "rendered": "Choose sorting order",
+                  "type": "label",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <option
+                        value="Ascending"
+                      >
+                        Ascending
+                      </option>,
+                      <option
+                        value="Descending"
+                      >
+                        Descending
+                      </option>,
+                    ],
+                    "onChange": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Ascending",
+                        "value": "Ascending",
+                      },
+                      "ref": null,
+                      "rendered": "Ascending",
+                      "type": "option",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "Descending",
+                        "value": "Descending",
+                      },
+                      "ref": null,
+                      "rendered": "Descending",
+                      "type": "option",
+                    },
+                  ],
+                  "type": "select",
+                },
+              ],
+              "type": "div",
+            },
+          ],
+          "type": "div",
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "hasGeneratedNumbers": false,
+            "phoneNumbers": Array [
+              Object {
+                "userPhoneNumber": 2345678,
+              },
+              Object {
+                "userPhoneNumber": 8494343,
+              },
+            ],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

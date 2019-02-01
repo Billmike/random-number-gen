@@ -4,10 +4,13 @@ import { connect } from 'react-redux';
 import FileSaver from 'file-saver';
 import swal from 'sweetalert';
 import { addNumbers, sortNumbersAscending, sortNumbersDescending } from '../../redux/action/numbersAction';
+import MaxMin from '../MaxMin';
+import GeneratePhoneNumberButton from '../GeneratePhoneNumberButton';
+import DownloadButton from '../DownloadButton';
 import './Main.css';
 
 
-class Main extends React.Component {
+export class Main extends React.Component {
   state = {
     generatingValue: '',
     currentPage: 1,
@@ -42,23 +45,6 @@ class Main extends React.Component {
     }
   }
 
-  renderMaxNumber = () => {
-    const phoneNumbers = this.props.numbers.length > 0 ?
-      this.props.numbers.map(phoneNumber => phoneNumber.userPhoneNumber) : 0;
-    const maxNumber = phoneNumbers === 0 ? 0 : Math.max(...phoneNumbers);
-    const minNumber = phoneNumbers === 0 ? 0 : Math.min(...phoneNumbers)
-    return (
-      <div className="minimax-container">
-        <div className="max">
-        The maximum generated phone Number: {phoneNumbers === 0 ? '000' : `090${maxNumber}`}
-        </div>
-        <div>
-        The minimum generated phone Number: {phoneNumbers === 0 ? '000' : `090${minNumber}`}
-        </div>
-      </div>
-    )
-  }
-
   onGeneratingValueChange = (event) => {
     const inputValue = event.target.value;
     this.setState({ generatingValue: inputValue, hasGeneratedNumbers: true });
@@ -76,28 +62,14 @@ class Main extends React.Component {
             onChange={this.onGeneratingValueChange}
           />
           <div>
-          <button
-            className="button-style"
-            style={{
-              backgroundColor: this.state.generatingValue.trim() === '' ? 'grey' : 'midnightblue',
-              cursor: this.state.generatingValue.trim() === '' ? 'not-allowed' : 'pointer'
-            }}
-            onClick={this.onAddPhoneNumber}
-            disabled={this.state.generatingValue.trim() === ''}
-          >
-          Generate Phone Number
-          </button>
-          <button
-            disabled={this.props.numbers.length === 0}
-            className="download-button"
-            onClick={this.onDownloadPhoneNumbers}
-            style={{
-              cursor: this.props.numbers.length === 0 ? 'not-allowed' : 'pointer',
-              backgroundColor: this.props.numbers.length === 0 ? 'grey' : 'midnightblue'
-            }}
-          >
-            Download Numbers
-          </button>
+          <GeneratePhoneNumberButton
+            generatingValue={this.state.generatingValue}
+            onAddPhoneNumber={this.onAddPhoneNumber}
+            />
+          <DownloadButton
+            numbers={this.props.numbers}
+            onDownloadPhoneNumbers={this.onDownloadPhoneNumbers}
+          />
           </div>
           {this.props.numbers.length > 1 && <div className="select-container">
           <label className="select-label">
@@ -109,7 +81,7 @@ class Main extends React.Component {
           </select>
         </div>}
         </div>
-        {this.props.numbers.length > 2 && this.renderMaxNumber()}
+        {this.props.numbers.length > 2 && <MaxMin numbers={this.props.numbers} />}
         <DisplayNumbers
           phoneNumbers={this.props.numbers}
           hasGeneratedNumbers={this.state.hasGeneratedNumbers}

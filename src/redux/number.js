@@ -5,7 +5,6 @@ export const defaultState = {
 export default (state = defaultState, action) => {
   switch(action.type) {
     case 'ADD_NUMBERS':
-    console.log('the state', action)
       return {
         ...state,
         data: [...action.phoneNumber]

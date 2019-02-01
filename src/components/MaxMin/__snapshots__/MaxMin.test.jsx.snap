@@ -1,0 +1,328 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaxMin /> 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MaxMin
+    numbers={
+      Array [
+        Object {
+          "userPhoneNumber": 1234566,
+        },
+        Object {
+          "userPhoneNumber": 986945,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="max"
+        >
+          The maximum generated Phone Number: 
+          0901234566
+        </div>,
+        <div>
+          The minimum generated Phone Number: 
+          090986945
+        </div>,
+      ],
+      "className": "minimax-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "The maximum generated Phone Number: ",
+            "0901234566",
+          ],
+          "className": "max",
+        },
+        "ref": null,
+        "rendered": Array [
+          "The maximum generated Phone Number: ",
+          "0901234566",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "The minimum generated Phone Number: ",
+            "090986945",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "The minimum generated Phone Number: ",
+          "090986945",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="max"
+          >
+            The maximum generated Phone Number: 
+            0901234566
+          </div>,
+          <div>
+            The minimum generated Phone Number: 
+            090986945
+          </div>,
+        ],
+        "className": "minimax-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "The maximum generated Phone Number: ",
+              "0901234566",
+            ],
+            "className": "max",
+          },
+          "ref": null,
+          "rendered": Array [
+            "The maximum generated Phone Number: ",
+            "0901234566",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "The minimum generated Phone Number: ",
+              "090986945",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "The minimum generated Phone Number: ",
+            "090986945",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`<MaxMin /> renders correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <MaxMin
+    numbers={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="max"
+        >
+          The maximum generated Phone Number: 
+          000
+        </div>,
+        <div>
+          The minimum generated Phone Number: 
+          000
+        </div>,
+      ],
+      "className": "minimax-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "The maximum generated Phone Number: ",
+            "000",
+          ],
+          "className": "max",
+        },
+        "ref": null,
+        "rendered": Array [
+          "The maximum generated Phone Number: ",
+          "000",
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "The minimum generated Phone Number: ",
+            "000",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "The minimum generated Phone Number: ",
+          "000",
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="max"
+          >
+            The maximum generated Phone Number: 
+            000
+          </div>,
+          <div>
+            The minimum generated Phone Number: 
+            000
+          </div>,
+        ],
+        "className": "minimax-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "The maximum generated Phone Number: ",
+              "000",
+            ],
+            "className": "max",
+          },
+          "ref": null,
+          "rendered": Array [
+            "The maximum generated Phone Number: ",
+            "000",
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "The minimum generated Phone Number: ",
+              "000",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "The minimum generated Phone Number: ",
+            "000",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

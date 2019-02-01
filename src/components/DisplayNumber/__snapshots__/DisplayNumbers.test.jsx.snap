@@ -1,0 +1,497 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DisplayNumbers /> mounts correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DisplayNumber
+    phoneNumbers={
+      Array [
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+        Object {
+          "userPhoneNumber": 123456,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        Array [
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+          <div
+            className="number-style"
+          >
+            090123456
+          </div>,
+        ],
+        <Pagination
+          handlePageClick={[Function]}
+          pages={2}
+        />,
+      ],
+      "className": "container-style",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "0",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "1",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "2",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "3",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "4",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "5",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "6",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "7",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "8",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "9",
+        "nodeType": "host",
+        "props": Object {
+          "children": "090123456",
+          "className": "number-style",
+        },
+        "ref": null,
+        "rendered": "090123456",
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "handlePageClick": [Function],
+          "pages": 2,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          Array [
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+            <div
+              className="number-style"
+            >
+              090123456
+            </div>,
+          ],
+          <Pagination
+            handlePageClick={[Function]}
+            pages={2}
+          />,
+        ],
+        "className": "container-style",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": "0",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "1",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "2",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "3",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "4",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "5",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "6",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "7",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "8",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "9",
+          "nodeType": "host",
+          "props": Object {
+            "children": "090123456",
+            "className": "number-style",
+          },
+          "ref": null,
+          "rendered": "090123456",
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "handlePageClick": [Function],
+            "pages": 2,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

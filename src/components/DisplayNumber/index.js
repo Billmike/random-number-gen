@@ -74,12 +74,6 @@ class DisplayNumber extends React.Component {
     })
   }
 
-  onPageChange = (event) => {
-    this.setState({
-      currentPage: Number(event.target.id)
-    })
-  }
-
   render() {
     const { paginatedNumbers, totalPages } = this.state;
     return (
@@ -87,7 +81,6 @@ class DisplayNumber extends React.Component {
       {
         paginatedNumbers.phoneNumberData && paginatedNumbers.phoneNumberData.length > 0
       && paginatedNumbers.phoneNumberData.map((phoneNumbers, index) => {
-        console.log(phoneNumbers);
         return (
           <div className="number-style" key={index}>
             {`090${phoneNumbers.userPhoneNumber}`}

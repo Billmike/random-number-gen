@@ -8,25 +8,6 @@
   align-self: center;
 }
 
-.button-style {
-  height: 35px;
-  border-radius: 10px;
-  color: white;
-  border: none;
-  font-size: 16px;
-  font-family: auto;
-}
-
-.download-button {
-  height: 35px;
-  border-radius: 10px;
-  border: none;
-  color: white;
-  font-size: 16px;
-  margin-left: 20px;
-  font-family: auto;
-}
-
 .select-container {
   text-align: center;
   margin-top: 25px;
@@ -35,18 +16,6 @@
 .select-label {
   margin-right: 10px;
   font-family: auto;
-}
-
-.minimax-container {
-  position: absolute;
-  top: 20%;
-  left: 25px;
-  font-family: monospace;
-  font-size: 14px;
-}
-
-.max {
-  margin-bottom: 15px;
 }
 
 .generating-value {

@@ -1,0 +1,11 @@
+.minimax-container {
+  position: absolute;
+  top: 20%;
+  left: 25px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.max {
+  margin-bottom: 15px;
+}
